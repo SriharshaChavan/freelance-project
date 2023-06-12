@@ -163,8 +163,8 @@ body {
   text-transform: initial;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
     transform var(--e-transform-transition-duration, 0.4s);
-    box-sizing: border-box;
-    max-width: 700px;
+  box-sizing: border-box;
+  max-width: 700px;
 }
 .inner-text-container h2 {
   color: var(--e-global-color-e69a1f7);
@@ -172,4 +172,64 @@ body {
   font-size: 42px;
   font-weight: 500;
   line-height: 46px;
+}
+.section-image {
+  width: 100%;
+}
+.source-container {
+  max-width: 1140px;
+}
+.main-container {
+  width: 50%;
+}
+.one-container {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.one-image {
+  width: 100%;
+}
+.one-image-class {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+    transform var(--e-transform-transition-duration, 0.4s);
+}
+.one-image-class-2{
+  display: flow-root;
+    max-width: 500px;
+    line-height: 25px;
+}
+.one-image-class-1{
+  display: flex;
+}
+.elementor-image-box-img{
+  margin: null;
+}
+figure{
+  width: 20%;
+}
+.para-class{
+  color: var(--e-global-color-b1c7914 );
+    font-family: "Source Sans Pro", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: initial;
+}
+.text-class{
+  margin-bottom: 5px;
+    color: var(--e-global-color-b1c7914 );
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.source-container-0{
+  text-align: left;
+  align-items: center;
+}
+.main-source-container{
+  max-width: 1140px; 
+  background-color: white; 
+  display: flex;
+  flex-direction: row;
 }

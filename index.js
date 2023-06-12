@@ -11,7 +11,7 @@ var swiper = new Swiper('#mySwiper', {
     prevEl: '.swiper-button-prev',
   },
   autoplay: {
-    delay: 2000, // 2 seconds delay between slides
+    delay: 8000, // 2 seconds delay between slides
     disableOnInteraction: false,
   },
 });
